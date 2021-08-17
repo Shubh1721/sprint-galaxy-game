@@ -13,14 +13,15 @@ class MainWidget(Widget):
         pass 
     # to get window size dynamically
     def on_size(self, *args):
-        # print("Size W:"+str(self.width)+" H:"+str(self.height))
+        print("Size W:"+str(self.width)+" H:"+str(self.height))
         # self.perspective_point_x = self.width/2 # we can use similar in .kv file
         # self.perspective_point_y = self.height*0.75
         pass 
 
     def on_perspective_point_x(self, widget, value):
-        # print("PX :"+str(value))
+        print("PX :"+str(value))
         pass
     def on_perspective_point_y(self, widget, value):
-        # print("PY:"+str(value))
+        print("PY:"+str(value))
+        
         pass
